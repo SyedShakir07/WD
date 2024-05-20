@@ -1,33 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        @keyframes moveball{
-            0%{left:10px; top:10px}
-            25%{left:1100px;top:10px}
-            50%{left:1100px;top:500px}
-            75%{left:10px;top:500px}
-            100%{left:10px;top:10px}
-        }
-        div{
-            width: 100px;
-            height: 100px;
-            border: 3px solid yellow;
-            border-radius: 50%;
-            position: relative;
-            background-color: rgb(97, 16, 173);
-            animation-name: moveball;
-            animation-duration: 10s;
-            animation-iteration-count: infinite;
-        }
-    </style>
-</head>
-<body>
-    <div>
+<style>
 
-    </div>
-</body>
-</html>
+    @keyframes changeimg{
+    
+    0%(background-image: url("images/bkground1.jpeg");}
+    
+    20%{background-image: url("images/bkground2.jpeg");} 40%{background-image: url("images/bkground3.jpeg");}
+    
+    60%(background-image: url("images/bkground4.jpeg");}
+    
+    80%{background-image: url("images/bkground5.jpeg");}
+    
+    100%{background-image: url("images/bkground1.jpeg");}
+    
+    }
+    
+    body{
+    
+    I background-image: url("images/bkground1.jpeg"); background-repeat: no-repeat; background-size: 1600px 800px;
+    
+    animation-name: changeimg; animation-duration: 15s; animation-delay: 25;
+    
+    animation-iteration-count: infinite;
+    
+    }
+    
+    </style>
